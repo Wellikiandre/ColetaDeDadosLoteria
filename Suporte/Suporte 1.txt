@@ -1,0 +1,25 @@
+    Power Shell Habilitar
+.\venv\Scripts\Activate.ps1
+
+    No Shell Aberto
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Escolher o "s"
+
+    Instalar ambiente virtual python
+python -m venv .venv
+
+    Docker Iniciante
+https://www.youtube.com/watch?v=RE31GWJGkwA&t=4s
+
+
+    Comando VSCode
+    ctrl+shift+p
+Reload Windows => Reiniciar o VSCode
+
+    Pacotes para usar sql no python
+pip install pandas
+pip install pandas lxml
+pip install SQLAlchemy
+pip install psycopg2
+pip freeze > requirements.txt
