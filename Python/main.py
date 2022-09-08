@@ -1,6 +1,6 @@
 # %%
 import requests
-import pandas as pd 
+import pandas as pd
 import collections
 import sys
 
@@ -8,17 +8,17 @@ import sys
 #url = sys.argv[1]
 url = 'https://servicebus2.caixa.gov.br/portaldeloterias/api/resultados?modalidade=Lotof%C3%A1cil'
 r = requests.get(url, verify=False)
-bronze  = r.text
+bronze = r.text
 # %%
-prata = bronze.replace('''{\r\n  "html": "''','')
-prata = prata.replace('''"\r\n}''','')
-prata = prata.replace('''\\r\\n''','')
+prata = bronze.replace('''{\r\n  "html": "''', '')
+prata = prata.replace('''"\r\n}''', '')
+prata = prata.replace('''\\r\\n''', '')
 prata = pd.read_html(prata)
 prata = prata[0]
 df_ouro = prata[prata['Bola1'].notnull()]
 
 # %%
-df_ouro.to_csv("Fato_lotofacil.csv",encoding = 'utf-8',index = False, sep ='|')
+df_ouro.to_csv("Fato_lotofacil.csv", encoding='utf-8', index=False, sep='|')
 
 
 ##                                              Análise                                              ##
@@ -60,7 +60,6 @@ lst_campos = ['Bola1', 'Bola2', 'Bola3', 'Bola4', 'Bola5',
               'Bola6', 'Bola7', 'Bola8', 'Bola9', 'Bola10', 'Bola11', 'Bola12',
               'Bola13', 'Bola14', 'Bola15']
 
-# %%
 for index, row in df_ouro.iterrows():
     v_pares = 0
     v_impares = 0
@@ -123,7 +122,6 @@ for index, row in df_ouro.iterrows():
         if row[campo] == 25:
             v_25 += 1
     comb.append(str(v_pares) + 'p-' + str(v_impares) + 'i-'+str(v_primos)+'np')
-# %%
 
 freq_nr = [
     [1, v_01],
@@ -170,10 +168,5 @@ O número mais frequente é o:  {}
 O número menos frequente é o:  {}
 A combinação de Pares, Ímpares e Primos mais frequente é: {} com a frequencia de: {}%
 '''.format(freq_nr[-1][0], freq_nr[0][0], resultado['Combinacao'].values[-1], int((resultado['p_freq'].values[-1]*100)*100)/100)
-)
+      )
 # %%
-
-for linha in df_ouro.itertuples(index=False, name='Wee'):
-   break
-# %%
-
