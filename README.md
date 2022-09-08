@@ -102,6 +102,20 @@ Made with :heart: by <a href="https://www.linkedin.com/in/wellikiandre/" target=
     <img src="img/ETL.png" alt="Dta Viz" /> 
 </a>
 
+### Analise Prévia (Python/Pandas) ###
+
+<p>
+1 - O número mais frequente e o 20, o numero menos frequente e o 8.
+</p>
+
+<p>
+2 - 10,65 % dos concursos tiveram a combinação de 7 pares, 8 ímpares e 6 primos.
+</p>
+
+<a href="https://www.linkedin.com/in/wellikiandre/">
+    <img src="img/Analise.png" alt="Dta Viz" /> 
+</a>
+
 ### Data Viz - PowerBI ###
 
 Resumo: Analisando todos os concursos desde de 2009 tiramos algums insight bem rápidos.
