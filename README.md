@@ -8,7 +8,7 @@
   <!-- <a href="https://www.linkedin.com/in/wellikiandre/">LinkdeIn</a> -->
 </div>
 
-<h1 align="center">Projeto Coleta de Dados Loto Fácil</h1>
+<h1 align="center">Projeto Coleta de Dados LotoFácil</h1>
 
 <p align="center">
 
