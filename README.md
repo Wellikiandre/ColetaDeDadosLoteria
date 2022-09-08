@@ -73,16 +73,14 @@ Neste projeto foram utilizadas as seguintes ferramentas:
 
 ## :white_check_mark: Requirements ##
 
-Tenha certeza de tenha instaBefore starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python](https://www.python.org/) installed.
+Tenha certeza de tenha instalado [Git](https://git-scm.com) e [Python](https://www.python.org/) , seguir a etapa Starting.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/padronização-de-readme-de-projeto
+$ git clone https://github.com/Wellikiandre/ColetaDeDadosLoteria.git
 
-# Access
-$ cd padronização-de-readme-de-projeto
 
 # Install dependencies
 $ pip install -r requirements.txt
@@ -111,7 +109,7 @@ Resumo: Analisando todos os concursos desde de 2009 tiramos algums insight bem r
 2- A curva entre arrecadação e premiação possuem a mesma correlação , ou seja, a variavel arrecadação influencia diretamente.
 3- A premiação paga com 11 acertos tem um valor bruto pago maior que todas as outras faixa de acertos, sendo elas com 12 , 13 , 14 ou 15 acertos. 
 
-Clicando na imagem você será enviado para o Data Viz
+#####Clicando na imagem você será enviado para o Data Viz
 
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU3N2YyMDQtMjk5Yy00YzQxLTgyMDktYWZmNDA4ZDc2NTA5IiwidCI6IjYyN2Y5OGM3LTQwNWQtNDdmOS05MGVlLTA4OWMzNTRlNWRmZCJ9">
     <img src="img/Dashboard.png" alt="Dta Viz" /> 
