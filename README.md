@@ -109,7 +109,7 @@ Resumo: Analisando todos os concursos desde de 2009 tiramos algums insight bem r
 1- Desde 2009 a diferença entre arrecadação e premiação varia de 60,7% a 63,3% ao ano.
 </p>
 <p>
-2- A curva entre arrecadação e premiação possuem a mesma correlação , ou seja, a variavel arrecadação influencia diretamente.
+2- A curva entre arrecadação e premiação possuem a mesma correlação , ou seja, a variável arrecadação influência diretamente.
 </p>
 <p>
 3- A premiação paga com 11 acertos tem um valor bruto pago maior que todas as outras faixa de acertos, sendo elas com 12 , 13 , 14 ou 15 acertos. 
