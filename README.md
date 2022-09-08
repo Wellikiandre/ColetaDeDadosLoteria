@@ -8,7 +8,7 @@
   <!-- <a href="https://www.linkedin.com/in/wellikiandre/">LinkdeIn</a> -->
 </div>
 
-<h1 align="center">Projeto Coleta de Dados LotoFácil</h1>
+<h1 align="center">Projeto Coleta e Análise de Dados LotoFácil</h1>
 
 <p align="center">
 
@@ -115,7 +115,7 @@ Resumo: Analisando todos os concursos desde de 2009 tiramos algums insight bem r
 3- A premiação paga com 11 acertos tem um valor bruto pago maior que todas as outras faixa de acertos, sendo elas com 12 , 13 , 14 ou 15 acertos. 
 </p>
 
-#####Clicando na imagem você será enviado para o Data Viz
+##### Clicando na imagem você será enviado para o Data Viz
 
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU3N2YyMDQtMjk5Yy00YzQxLTgyMDktYWZmNDA4ZDc2NTA5IiwidCI6IjYyN2Y5OGM3LTQwNWQtNDdmOS05MGVlLTA4OWMzNTRlNWRmZCJ9">
     <img src="img/Dashboard.png" alt="Dta Viz" /> 
