@@ -11,10 +11,8 @@ prata = bronze.replace('''{\r\n  "html": "''','')
 prata = prata.replace('''"\r\n}''','')
 prata = prata.replace('''\\r\\n''','')
 prata = pd.read_html(prata)
+prata = prata[0]
+df_ouro = prata[prata['Bola1'].notnull()]
 
 # %%
-prata_1 = prata[0]
-# %%
-df_ouro = prata_1[prata_1['Bola1'].notnull()]
-# %%
-df_ouro
+df_ouro.to_csv("Fato_lotofacil.csv",encoding = 'utf-8',index = False, sep ='|')
