@@ -22,6 +22,14 @@
 
 <br>
 
+<!-- Botão Power BI -->
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU3N2YyMDQtMjk5Yy00YzQxLTgyMDktYWZmNDA4ZDc2NTA5IiwidCI6IjYyN2Y5OGM3LTQwNWQtNDdmOS05MGVlLTA4OWMzNTRlNWRmZCJ9" target="_blank">
+    <img src="https://img.shields.io/badge/Abrir%20no%20Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Abrir no Power BI">
+  </a>
+</p>
+
+
 ## :dart: About
 
 Projeto criado em **07/09/2022**, realizando *web scraping* dos concursos da **LotoFácil** diretamente do site da Loteria Federal.  
