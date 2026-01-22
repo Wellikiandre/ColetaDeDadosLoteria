@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">Projeto Coleta e Análise de Dados LotoFácil</h1>
-
+Projeto foi realizado para ensinar jovens a utilizar as ferramentas abaixo de formaa descontraida
 <p align="center">
   <a href="https://www.linkedin.com/in/wellikiandre/">
     <img src="img/fluxo.png" alt="Fluxo do Projeto" />
