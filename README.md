@@ -22,6 +22,14 @@
 
 <br>
 
+
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU3N2YyMDQtMjk5Yy00YzQxLTgyMDktYWZmNDA4ZDc2NTA5IiwidCI6IjYyN2Y5OGM3LTQwNWQtNDdmOS05MGVlLTA4OWMzNTRlNWRmZCJ9" target="_blank">
+    <img src="img/Dashboard.png" alt="Abrir Dashboard Power BI" width="800">
+  </a>
+</p>
+
+
 <!-- Botão Power BI -->
 <p align="center">
   <a href="https://app.powerbi.com/view?r=eyJrIjoiNWU3N2YyMDQtMjk5Yy00YzQxLTgyMDktYWZmNDA4ZDc2NTA5IiwidCI6IjYyN2Y5OGM3LTQwNWQtNDdmOS05MGVlLTA4OWMzNTRlNWRmZCJ9" target="_blank">
